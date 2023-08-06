@@ -5,7 +5,7 @@ services:
       context: ../
       dockerfile: docker/dockerfile
     image: c4h-frontend
-    container_name: freshehr/c4h-frontend
+    container_name: c4h-frontend
     volumes:
       - ../:/web:cached
     ports:
