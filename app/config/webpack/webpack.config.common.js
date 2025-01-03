@@ -9,9 +9,18 @@ export const config = {
           loader: 'babel-loader'
         }
       }
-    }
-  },
+    }, 
+    exports: {
+      //...
+      dev_server: {
+        allowedHosts: 'all',
+        disableHostCheck: true,
+        public: 'c4h.freshehr.com' 
+      }
+  }
+},
   output: {
-    filename: 'bundle.js'
+    filename: 'bundle.js' 
+ 
   }
 }

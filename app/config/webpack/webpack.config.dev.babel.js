@@ -12,6 +12,7 @@ module.exports = env => {
       hot: true,
       overlay: true,
       historyApiFallback: true,
+      disableHostCheck: true,
       stats: {
         colors: true,
         chunks: false,
